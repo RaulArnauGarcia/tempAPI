@@ -96,11 +96,11 @@ function mananaTarde(hora) {
     return "PM";
   }
 }
+const input = document.querySelector(".location");
 
 const main = async () => {
   try {
     //leer de localstorage la lat y long
-
     const latitude = localStorage.getItem("latitude");
     const longitude = localStorage.getItem("longitude");
 
